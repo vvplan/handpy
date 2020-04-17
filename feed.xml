@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/handpy/feed.xml" rel="self" type="application/atom+xml" /><link href="/handpy/" rel="alternate" type="text/html" /><updated>2020-04-17T09:56:22-05:00</updated><id>/handpy/feed.xml</id><title type="html">虚谷计划之掌控板</title><subtitle>虚谷计划旗下的开源硬件项目。</subtitle><entry><title type="html">欢迎使用Jekyll!（Markdown）</title><link href="/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD.html" rel="alternate" type="text/html" title="欢迎使用Jekyll!（Markdown）" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD</id><content type="html" xml:base="/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD.html">&lt;p&gt;&lt;strong&gt;Jekyll博客&lt;/strong&gt;将从这里开始.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/handpy/feed.xml" rel="self" type="application/atom+xml" /><link href="/handpy/" rel="alternate" type="text/html" /><updated>2020-04-17T09:58:11-05:00</updated><id>/handpy/feed.xml</id><title type="html">虚谷计划之掌控板</title><subtitle>虚谷计划旗下的开源硬件项目。</subtitle><entry><title type="html">设计一个多人互动游戏</title><link href="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html" rel="alternate" type="text/html" title="设计一个多人互动游戏" /><published>2020-04-15T00:00:00-05:00</published><updated>2020-04-15T00:00:00-05:00</updated><id>/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F</id><content type="html" xml:base="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html">&lt;p&gt;设计一个多人互动游戏——以“赛龙舟”为例&lt;/p&gt;
+
+&lt;p&gt;浙江省温州中学 谢作如&lt;/p&gt;
+
+&lt;p&gt;上海师范大学 陆雅楠&lt;/p&gt;
+
+&lt;p&gt;涉及学科：艺术、数学、信息技术&lt;/p&gt;
+
+&lt;p&gt;利用编程软件和开源硬件制作的人机互动游戏案例已经越来越多，但是多人互动的游戏却很少见，因为这需要网络的支持。掌控板是一款使用物联网芯片开发的开源硬件，具备了连接网络的功能，如何运用类似掌控板之类能够联网的开源硬件，设计可以多人互动的游戏，成为我们研究的新方向。&lt;/p&gt;
+
+&lt;p&gt;赛龙舟是我国重要的一项习俗活动，是一项典型的集体竞赛活动。让这项活动搬入室内，甚至是搬入课堂，以一种全新的形式呈现出来，肯定挺好玩。掌控板自带了加速度传感器，可以感知“划桨”的动作，再结合物联网技术，将大家的动作统一呈现在一个屏幕上，为“赛龙舟”的游戏设计提供了技术上的保障。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 赛龙舟游戏&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一、多人互动游戏的技术分析&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;物联网（Internet of Things，简称IoT）是借助互联网、传统电信网等信息承载体，让所有能行使独立功能的普通物体实现互联互通的网络。MQTT是常见的物联网通讯协议，采用主题（TopicID）来实时发送和接收（订阅）消息，使用起来非常简单。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;掌控板支持MQTT协议。本游戏案例为人手一块掌控板，设置掌控板连接Wi-Fi，然后利用掌控板的加速度传感器感知晃动幅度，即划桨的动作，然后上传到MQTT服务器。Mind+软件也连接MQTT服务器，订阅物联网信息，再用不同的龙舟角色呈现不同掌控板的前进速度，就完成了这一互动游戏。系统运行流程如图所示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 系统运行流程&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;二、开发工具准备&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1.Mind+&lt;/p&gt;
+
+&lt;p&gt;Mind+是著名开源硬件企业DFRobot推出的IDE工具。其支持两种编程模式，一是实时交互模式，二是离线下载模式。实时交互模式类似普通的Scratch程序，离线下载模式则是指给Arduino、掌控板写程序。Mind+可以直接访问MQTT服务器，和其他接入MQTT服务器的智能硬件进行交互。基于Mind+的MQTT简单调试如图所示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 MQTT调试图&lt;/p&gt;
+
+&lt;p&gt;2.掌控板&lt;/p&gt;
+
+&lt;p&gt;一个游戏用户需要一块掌控板。根据赛龙舟的活动特点，制作一个船桨，将掌控板安装到船桨上采集真实的“划桨”数据，如图所示。注意，掌控板要加电源哦。图中的掌控板加了带电源的扩展板。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 安装有掌控板的船桨&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;3.SIoT服务器&lt;/p&gt;
+
+  &lt;p&gt;SIoT是一个跨平台的标准MQTT服务器，不需要经过复杂的配置，一键启动即可使用。SIoT也是一款开源软件，是“虚谷物联”项目的核心软件，根据操作系统下载相应的版本即可。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;三、代码编写&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1.物联网环境准备&lt;/p&gt;
+
+&lt;p&gt;双击运行与系统匹配的SIoT运行文件，屏幕会弹出一个黑色的CMD窗口，确保在配置中此窗口不关闭。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 SIoT运行窗口&lt;/p&gt;
+
+&lt;p&gt;运行Mind+软件，并在拓展中选择“网络服务”并添加“MQTT”，如图所示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 Mind+软件界面&lt;/p&gt;
+
+&lt;p&gt;2.掌控板代码&lt;/p&gt;
+
+&lt;p&gt;掌控板的代码使用Mind+的“下载模式”编写。首先掌控板设备与服务器建立连接，在服务器上能够实时反馈数据。设置变量g1与g2分别代表玩家一次划桨的前后加速度（可通过读取一次划桨前后桨上掌控板不同位置的加速度获取），从而计算了桨的晃动幅度，然后上传到MQTT服务器。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 掌控板参考代码&lt;/p&gt;
+
+&lt;p&gt;“MQTT初始化参数”设置：服务器地址设置为SIoT服务器的IP地址，TopicID（主题）设置为“项目ID/名称”。不同的掌控板设置不同的TopicID ，如“longzhou/0”、 “longzhou/1”、 “longzhou/2”分别代表3块掌控板。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 MQTT初始化参数设置&lt;/p&gt;
+
+&lt;p&gt;3.Mind+代码&lt;/p&gt;
+
+&lt;p&gt;Mind+的代码在“实时模式”下编写，需要设置一个河水的背景，然后添加龙舟角色，根据掌控板的数量添加多个角色。同样在 “MQTT初始化参数”中设置“longzhou/0”、 “longzhou/1”、 “longzhou/2”这三个TopicID。&lt;/p&gt;
+
+&lt;p&gt;通过不同玩家控制的掌控板传来的顺序，一一对应到各自的角色（龙舟）上，不同晃动幅度龙舟的前进速度不同。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image10.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image11.png&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image12.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 龙舟角色的参考代码&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;四、游戏测试&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;每名玩家手持装有掌控板的船桨一柄，每名玩家代表一条龙舟。当掌控板出现数值就表示连接MQTT服务器成功，就开始游戏了。Mind+软件会准确计算出每名玩家的划桨幅度并将其呈现在龙舟的前进速度中，最终玩家们根据龙舟触边先后决出胜负。其测试效果如图所示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image13.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 游戏测试图1&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image14.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 游戏测试图2&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;五、结语和展望&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这款游戏还可以继续改进，如：（1）可以通过添加音效使得游戏更加真实，玩家体验感更好；（2）在背景画面上可以添加动图效果，制作出龙舟比赛时水流的特效；（3）可以思考设计团队模式游戏，三人一组划一条龙舟进行竞赛。&lt;/p&gt;
+
+&lt;p&gt;结合SIoT和掌控板，可以设计更多有意思的多人互动游戏，也可以设计一些真实的应用，如网络投票。在一些集体活动中玩这样的互动游戏，不仅有趣，还能够培养集体意识呢。希望本案例能抛砖引玉，有更多的老师带领学生做类似的研究。&lt;/p&gt;</content><author><name></name></author><summary type="html">设计一个多人互动游戏——以“赛龙舟”为例</summary></entry><entry><title type="html">欢迎使用Jekyll!（Markdown）</title><link href="/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD.html" rel="alternate" type="text/html" title="欢迎使用Jekyll!（Markdown）" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD</id><content type="html" xml:base="/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD.html">&lt;p&gt;&lt;strong&gt;Jekyll博客&lt;/strong&gt;将从这里开始.&lt;/p&gt;
 
 &lt;p&gt;希望&lt;strong&gt;你&lt;/strong&gt;喜欢!&lt;/p&gt;</content><author><name></name></author><summary type="html">Jekyll博客将从这里开始.</summary></entry><entry><title type="html">GitHub Actions: Providing Data Scientists With New Superpowers</title><link href="/handpy/actions/markdown/2020/03/06/fastpages-actions.html" rel="alternate" type="text/html" title="GitHub Actions: Providing Data Scientists With New Superpowers" /><published>2020-03-06T00:00:00-06:00</published><updated>2020-03-06T00:00:00-06:00</updated><id>/handpy/actions/markdown/2020/03/06/fastpages-actions</id><content type="html" xml:base="/handpy/actions/markdown/2020/03/06/fastpages-actions.html">&lt;h1 id=&quot;what-superpowers&quot;&gt;What Superpowers?&lt;/h1&gt;
 

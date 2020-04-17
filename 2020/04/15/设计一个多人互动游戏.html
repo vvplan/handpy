@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>设计一个多人互动游戏 | 虚谷计划之掌控板</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="设计一个多人互动游戏" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="设计一个多人互动游戏——以“赛龙舟”为例" />
+<meta property="og:description" content="设计一个多人互动游戏——以“赛龙舟”为例" />
+<link rel="canonical" href="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html" />
+<meta property="og:url" content="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html" />
+<meta property="og:site_name" content="虚谷计划之掌控板" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-15T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"设计一个多人互动游戏","description":"设计一个多人互动游戏——以“赛龙舟”为例","datePublished":"2020-04-15T00:00:00-05:00","dateModified":"2020-04-15T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html"},"url":"/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/handpy/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/handpy/feed.xml" title="虚谷计划之掌控板" /><link rel="shortcut icon" type="image/x-icon" href="/handpy/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>设计一个多人互动游戏 | 虚谷计划之掌控板</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="设计一个多人互动游戏" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="设计一个多人互动游戏——以“赛龙舟”为例" />
+<meta property="og:description" content="设计一个多人互动游戏——以“赛龙舟”为例" />
+<link rel="canonical" href="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html" />
+<meta property="og:url" content="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html" />
+<meta property="og:site_name" content="虚谷计划之掌控板" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-15T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"设计一个多人互动游戏","description":"设计一个多人互动游戏——以“赛龙舟”为例","datePublished":"2020-04-15T00:00:00-05:00","dateModified":"2020-04-15T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html"},"url":"/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="/handpy/feed.xml" title="虚谷计划之掌控板" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/handpy/">虚谷计划之掌控板</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/handpy/about/">简介</a><a class="page-link" href="/handpy/community/">社区</a><a class="page-link" href="/handpy/doc/">文档</a><a class="page-link" href="/handpy/search/">查找</a><a class="page-link" href="/handpy/soft/">软件</a><a class="page-link" href="/handpy/categories/">标签</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">设计一个多人互动游戏</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-04-15T00:00:00-05:00" itemprop="datePublished">
+        Apr 15, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>设计一个多人互动游戏——以“赛龙舟”为例</p>
+
+<p>浙江省温州中学 谢作如</p>
+
+<p>上海师范大学 陆雅楠</p>
+
+<p>涉及学科：艺术、数学、信息技术</p>
+
+<p>利用编程软件和开源硬件制作的人机互动游戏案例已经越来越多，但是多人互动的游戏却很少见，因为这需要网络的支持。掌控板是一款使用物联网芯片开发的开源硬件，具备了连接网络的功能，如何运用类似掌控板之类能够联网的开源硬件，设计可以多人互动的游戏，成为我们研究的新方向。</p>
+
+<p>赛龙舟是我国重要的一项习俗活动，是一项典型的集体竞赛活动。让这项活动搬入室内，甚至是搬入课堂，以一种全新的形式呈现出来，肯定挺好玩。掌控板自带了加速度传感器，可以感知“划桨”的动作，再结合物联网技术，将大家的动作统一呈现在一个屏幕上，为“赛龙舟”的游戏设计提供了技术上的保障。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image1.jpeg" alt="" /></p>
+
+<p>图 赛龙舟游戏</p>
+
+<p><strong>一、多人互动游戏的技术分析</strong></p>
+
+<p>物联网（Internet of Things，简称IoT）是借助互联网、传统电信网等信息承载体，让所有能行使独立功能的普通物体实现互联互通的网络。MQTT是常见的物联网通讯协议，采用主题（TopicID）来实时发送和接收（订阅）消息，使用起来非常简单。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image2.jpeg" alt="" /></p>
+
+<p>掌控板支持MQTT协议。本游戏案例为人手一块掌控板，设置掌控板连接Wi-Fi，然后利用掌控板的加速度传感器感知晃动幅度，即划桨的动作，然后上传到MQTT服务器。Mind+软件也连接MQTT服务器，订阅物联网信息，再用不同的龙舟角色呈现不同掌控板的前进速度，就完成了这一互动游戏。系统运行流程如图所示。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image3.png" alt="" /></p>
+
+<p>图 系统运行流程</p>
+
+<p><strong>二、开发工具准备</strong></p>
+
+<p>1.Mind+</p>
+
+<p>Mind+是著名开源硬件企业DFRobot推出的IDE工具。其支持两种编程模式，一是实时交互模式，二是离线下载模式。实时交互模式类似普通的Scratch程序，离线下载模式则是指给Arduino、掌控板写程序。Mind+可以直接访问MQTT服务器，和其他接入MQTT服务器的智能硬件进行交互。基于Mind+的MQTT简单调试如图所示。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image4.png" alt="" /></p>
+
+<p>图 MQTT调试图</p>
+
+<p>2.掌控板</p>
+
+<p>一个游戏用户需要一块掌控板。根据赛龙舟的活动特点，制作一个船桨，将掌控板安装到船桨上采集真实的“划桨”数据，如图所示。注意，掌控板要加电源哦。图中的掌控板加了带电源的扩展板。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image5.jpeg" alt="" /></p>
+
+<p>图 安装有掌控板的船桨</p>
+
+<blockquote>
+  <p>3.SIoT服务器</p>
+
+  <p>SIoT是一个跨平台的标准MQTT服务器，不需要经过复杂的配置，一键启动即可使用。SIoT也是一款开源软件，是“虚谷物联”项目的核心软件，根据操作系统下载相应的版本即可。</p>
+</blockquote>
+
+<p><strong>三、代码编写</strong></p>
+
+<p>1.物联网环境准备</p>
+
+<p>双击运行与系统匹配的SIoT运行文件，屏幕会弹出一个黑色的CMD窗口，确保在配置中此窗口不关闭。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image6.png" alt="" /></p>
+
+<p>图 SIoT运行窗口</p>
+
+<p>运行Mind+软件，并在拓展中选择“网络服务”并添加“MQTT”，如图所示。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image7.png" alt="" /></p>
+
+<p>图 Mind+软件界面</p>
+
+<p>2.掌控板代码</p>
+
+<p>掌控板的代码使用Mind+的“下载模式”编写。首先掌控板设备与服务器建立连接，在服务器上能够实时反馈数据。设置变量g1与g2分别代表玩家一次划桨的前后加速度（可通过读取一次划桨前后桨上掌控板不同位置的加速度获取），从而计算了桨的晃动幅度，然后上传到MQTT服务器。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image8.png" alt="" /></p>
+
+<p>图 掌控板参考代码</p>
+
+<p>“MQTT初始化参数”设置：服务器地址设置为SIoT服务器的IP地址，TopicID（主题）设置为“项目ID/名称”。不同的掌控板设置不同的TopicID ，如“longzhou/0”、 “longzhou/1”、 “longzhou/2”分别代表3块掌控板。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image9.png" alt="" /></p>
+
+<p>图 MQTT初始化参数设置</p>
+
+<p>3.Mind+代码</p>
+
+<p>Mind+的代码在“实时模式”下编写，需要设置一个河水的背景，然后添加龙舟角色，根据掌控板的数量添加多个角色。同样在 “MQTT初始化参数”中设置“longzhou/0”、 “longzhou/1”、 “longzhou/2”这三个TopicID。</p>
+
+<p>通过不同玩家控制的掌控板传来的顺序，一一对应到各自的角色（龙舟）上，不同晃动幅度龙舟的前进速度不同。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image10.png" alt="" /><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image11.png" alt="" /> <img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image12.png" alt="" /></p>
+
+<p>图 龙舟角色的参考代码</p>
+
+<p><strong>四、游戏测试</strong></p>
+
+<p>每名玩家手持装有掌控板的船桨一柄，每名玩家代表一条龙舟。当掌控板出现数值就表示连接MQTT服务器成功，就开始游戏了。Mind+软件会准确计算出每名玩家的划桨幅度并将其呈现在龙舟的前进速度中，最终玩家们根据龙舟触边先后决出胜负。其测试效果如图所示。</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image13.jpeg" alt="" /></p>
+
+<p>图 游戏测试图1</p>
+
+<p><img src="/handpy/assets/img/2020-04-15-设计一个多人互动游戏/media/image14.jpeg" alt="" /></p>
+
+<p>图 游戏测试图2</p>
+
+<p><strong>五、结语和展望</strong></p>
+
+<p>这款游戏还可以继续改进，如：（1）可以通过添加音效使得游戏更加真实，玩家体验感更好；（2）在背景画面上可以添加动图效果，制作出龙舟比赛时水流的特效；（3）可以思考设计团队模式游戏，三人一组划一条龙舟进行竞赛。</p>
+
+<p>结合SIoT和掌控板，可以设计更多有意思的多人互动游戏，也可以设计一些真实的应用，如网络投票。在一些集体活动中玩这样的互动游戏，不仅有趣，还能够培养集体意识呢。希望本案例能抛砖引玉，有更多的老师带领学生做类似的研究。</p>
+
+  </div><a class="u-url" href="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/handpy/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/handpy/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/handpy/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>虚谷计划旗下的开源硬件项目。</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
