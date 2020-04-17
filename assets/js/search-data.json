@@ -49,6 +49,17 @@
   
 
   
+      ,"page2": {
+          "title": "文档",
+          "content": "掌控板网络教程 . 盛思编写的掌控板教程 . 地址：掌控板在线文档 . 上海蘑菇云编写的入门课程 . 地址：mindplus . 周茂华等老师编写的普惠课程 . 谢作如等老师编写的掌控板课程 . 1.“掌控板和物联网”系列 . 虚谷物联和掌控板 . 2. .",
+          "url": "/handpy/doc/",
+          "relUrl": "/doc/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -59,7 +70,7 @@
   
 
   
-      ,"page6": {
+      ,"page7": {
           "title": "软件",
           "content": "掌控板相关软件 . 作为一款为青少年编程教育定制的开源硬件，掌控板得到广大厂商和创客爱好者的支持。 . mPython . 下载地址：mPython.cn . Mind+ . 下载地址：Mindplus.cc . Mixly . 在线地址：mixly.org . 腾讯扣叮之创意实验室 . 在线地址：腾讯扣叮 . 好好搭搭 . 在线地址： .",
           "url": "/handpy/soft/",
@@ -81,7 +92,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "/handpy/robots.txt",
