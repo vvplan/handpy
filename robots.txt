@@ -1,0 +1,1 @@
+Sitemap: /handpy/sitemap.xml
