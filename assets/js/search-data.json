@@ -59,6 +59,17 @@
   
 
   
+      ,"page6": {
+          "title": "软件",
+          "content": "掌控板相关软件 . 作为一款为青少年编程教育定制的开源硬件，掌控板得到广大厂商和创客爱好者的支持。 . mPython . 下载地址：mPython.cn . Mind+ . 下载地址：Mindplus.cc . Mixly . 在线地址：mixly.org . 腾讯扣叮之创意实验室 . 在线地址：腾讯扣叮 . 好好搭搭 . 在线地址： .",
+          "url": "/handpy/soft/",
+          "relUrl": "/soft/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -70,7 +81,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "/handpy/robots.txt",
