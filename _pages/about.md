@@ -1,15 +1,21 @@
 ---
 layout: page
-title: 关于我
+title: 简介
 permalink: /about/
 ---
 
-这是 *About（关于）* 页面。 像其他页面一样, 这是用[Markdown](https://guides.github.com/features/mastering-markdown/)格式书写的。
+## 掌控板简介
 
-此网站由 **[fastpages](https://github.com/fastai/fastpages)** [^1]提供**技术**支持。
+采用物联网芯片ESP32，整合了常见的输入输出模块，支持Wi-Fi和蓝牙，是专为青少年编程教育而设计的一款开源硬件。
 
-此网站由 **[EasonQYS](https://github.com/EasonQYS/fastpagesJupyter)** [^2]提供**汉化**支持。
+![掌控板](images/handpy.png)
 
-[^1]:一个除了普通格式外还支持Jupyter的博客。
+## 掌控板购买地址
 
-[^2]:第一个中文汉化版本。
+1.盛思
+
+[https://www.labplus.cn/handPy](https://www.labplus.cn/handPy)
+
+2.DF商城
+
+[https://www.dfrobot.com.cn](https://www.dfrobot.com.cn/category-367.html)
