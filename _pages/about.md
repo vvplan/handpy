@@ -8,7 +8,7 @@ permalink: /about/
 
 采用物联网芯片ESP32，整合了常见的输入输出模块，支持Wi-Fi和蓝牙，是专为青少年编程教育而设计的一款开源硬件。
 
-![掌控板](images/handpy.png)
+![掌控板](../images/handpy.png)
 
 ## 掌控板购买地址
 
