@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/handpy/feed.xml" rel="self" type="application/atom+xml" /><link href="/handpy/" rel="alternate" type="text/html" /><updated>2020-04-22T11:37:30-05:00</updated><id>/handpy/feed.xml</id><title type="html">虚谷计划之掌控板</title><subtitle>虚谷计划旗下的开源硬件项目。</subtitle><entry><title type="html">设计一个多人互动游戏</title><link href="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html" rel="alternate" type="text/html" title="设计一个多人互动游戏" /><published>2020-04-15T00:00:00-05:00</published><updated>2020-04-15T00:00:00-05:00</updated><id>/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F</id><content type="html" xml:base="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html">&lt;p&gt;设计一个多人互动游戏——以“赛龙舟”为例&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/handpy/feed.xml" rel="self" type="application/atom+xml" /><link href="/handpy/" rel="alternate" type="text/html" /><updated>2020-04-25T09:17:51-05:00</updated><id>/handpy/feed.xml</id><title type="html">虚谷计划之掌控板</title><subtitle>虚谷计划旗下的开源硬件项目。</subtitle><entry><title type="html">【课程】mind+和掌控板互动创意设计</title><link href="/handpy/2020/04/20/%E8%AF%BE%E7%A8%8B-Mind+%E5%92%8C%E6%8E%8C%E6%8E%A7%E6%9D%BF%E4%BA%92%E5%8A%A8%E5%88%9B%E6%84%8F%E8%AE%BE%E8%AE%A1.html" rel="alternate" type="text/html" title="【课程】mind+和掌控板互动创意设计" /><published>2020-04-20T00:00:00-05:00</published><updated>2020-04-20T00:00:00-05:00</updated><id>/handpy/2020/04/20/%E3%80%90%E8%AF%BE%E7%A8%8B%E3%80%91Mind+%E5%92%8C%E6%8E%8C%E6%8E%A7%E6%9D%BF%E4%BA%92%E5%8A%A8%E5%88%9B%E6%84%8F%E8%AE%BE%E8%AE%A1</id><content type="html" xml:base="/handpy/2020/04/20/%E8%AF%BE%E7%A8%8B-Mind+%E5%92%8C%E6%8E%8C%E6%8E%A7%E6%9D%BF%E4%BA%92%E5%8A%A8%E5%88%9B%E6%84%8F%E8%AE%BE%E8%AE%A1.html">&lt;hr /&gt;
+&lt;p&gt;title: 【课程】Mind+和掌控板互动创意设计
+description: “这是一套完整的课程，采用Mind+的实时模式，适合小学生或者互动媒体初学者。”
+toc: true
+comments: true
+layout: post
+categories: [Mind,handpy,互动媒体]
+author: 谢作如
+—&lt;/p&gt;
+
+&lt;h1 id=&quot;课程mind和掌控板互动创意设计&quot;&gt;【课程】Mind+和掌控板互动创意设计&lt;/h1&gt;
+
+&lt;p&gt;说明：利用Mind+和掌控板，编写简单的互动作品，适合小学生或者互动媒体初学者。&lt;/p&gt;
+
+&lt;h2 id=&quot;序&quot;&gt;序&lt;/h2&gt;
+
+&lt;p&gt;掌控板自2018年9月在长春STEAM教育大会发布以来，因为价格低廉且功能强大的优势，一直受到国内创客教师和创客企业的好评和热捧。&lt;/p&gt;
+
+&lt;p&gt;据不完全统计，能够给掌控板编写程序的软件已经超过不少于十个了。其中用户较多，评价较高的有mPythonX、Mind+、好好搭搭和腾讯扣叮等。全国各地官方、民间组织的创客教师培训中，涉及到掌控板的已经近百场，接受过培训的人次超过上万。省市级乃至全国级别的创客比赛中，也慢慢看到了掌控板的身影。&lt;/p&gt;
+
+&lt;p&gt;哪怕掌控板再好用，老师们总会问，掌控板有配套课程（教材）吗？虽然以周茂华、管雪沨为首的创客老师，都已经组织了骨干教师在编写课程，盛思和DF更是抽出了专人开发了一系列的教程，在公众号上连载。其实，掌控板的文档内容就很很全面，差不多算一门课程了。但老师们总是不满意，一是这些课程散落在网络的不同地方，不好找。二是有些课程比较简单，一节课只有一个程序代码截图，用起来还是有门槛。于是，我和谢贤晓老师萌生了为掌控板开发一个课程的想法。&lt;/p&gt;
+
+&lt;p&gt;早在2015年，我和谢贤晓老师就带着平阳的创客教师编过《Arduino创意机器人（Mixly版）》课程，那时她还在昆阳二小，还没有担任创客教育的教研员。《Arduino创意机器人》课程采用CC-BY协议开源，提供了完整的教材、课件、微视频和程序代码等课程资源，收获了来自全国各地如潮的好评。这次我们选择了用Mind+，写一个同样用CC-BY协议开源的完整课程，为“虚谷计划”的推进和掌控板的普及，再添上一把火。&lt;/p&gt;
+
+&lt;p&gt;掌控板在中小学的教学应用很广，可以用来学习编程，也可以作为探究科学的工具，可以用来研究物联网，也可以作为智能家居的终端。即使仅仅用来学编程，也有Scratch、Blockly、Arduino（这里指软件）和Python等选择。考虑到大部分老师把掌控板作为单片机来编程，我们选择一个不一样的角度，即把掌控板作为一个可以和电脑互动的智能终端（类似Scratch传感器板），制作互动媒体作品。这样一来，技术门槛会更低一些，三年级的学生都能学习了。&lt;/p&gt;
+
+&lt;p&gt;这个课程从四月初开始策划，完成后已经六月中旬了。开发一个课程本来就不容易，开发一个普适性强的可复制的开源课程更不容易。感谢Mind+的开发团队，根据我们的要求加班加点更新软件；更感谢平阳的创客教师团队，为开发这门课程牺牲了很多课余时间。但因为这门新开发出来的课程，毕竟还没有经过课堂教学的实践检验，教材中难免有错误，设计也难免有不够合理的地方，这些都需要在教学中再次迭代。&lt;/p&gt;
+
+&lt;p&gt;最后要说的是，平阳的创客教师团队要为掌控板开发的课程不仅仅这一门。我们准备继续开发以物联网为主题的，分别结合科学探究和智能家居的课程，从裸板到套件，让更多的老师能够使用这些课程，让更多的学生受益。作为平阳县信息技术学科中心组的第一任组长，我始终为平阳的老师而骄傲。&lt;/p&gt;
+
+&lt;p&gt;请给我们一点掌声吧！在推广创客教育的路上，且让我们相互鼓励，相互支持。路虽然很长，但是有你们，我不孤单。&lt;/p&gt;
+
+&lt;p&gt;谢作如2019.6.17&lt;/p&gt;
+
+&lt;h2 id=&quot;下载地址&quot;&gt;下载地址&lt;/h2&gt;
+
+&lt;p&gt;因为文件大小的限制，部分微课放在百度盘上共享。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/xiezuoru/xzrbook/tree/master/%E6%8E%8C%E6%8E%A7%E6%9D%BF%E7%B3%BB%E5%88%97/%E6%8E%8C%E6%8E%A7%E6%9D%BF%E4%B8%8EYeelight%E7%9A%84%E6%99%BA%E8%83%BD%E4%BA%92%E5%8A%A81.0&quot;&gt;访问github&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">title: 【课程】Mind+和掌控板互动创意设计 description: “这是一套完整的课程，采用Mind+的实时模式，适合小学生或者互动媒体初学者。” toc: true comments: true layout: post categories: [Mind,handpy,互动媒体] author: 谢作如 —</summary></entry><entry><title type="html">设计一个多人互动游戏</title><link href="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html" rel="alternate" type="text/html" title="设计一个多人互动游戏" /><published>2020-04-15T00:00:00-05:00</published><updated>2020-04-15T00:00:00-05:00</updated><id>/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F</id><content type="html" xml:base="/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html">&lt;p&gt;设计一个多人互动游戏——以“赛龙舟”为例&lt;/p&gt;
 
 &lt;p&gt;浙江省温州中学 谢作如&lt;/p&gt;
 
@@ -106,401 +144,4 @@
 
 &lt;p&gt;这款游戏还可以继续改进，如：（1）可以通过添加音效使得游戏更加真实，玩家体验感更好；（2）在背景画面上可以添加动图效果，制作出龙舟比赛时水流的特效；（3）可以思考设计团队模式游戏，三人一组划一条龙舟进行竞赛。&lt;/p&gt;
 
-&lt;p&gt;结合SIoT和掌控板，可以设计更多有意思的多人互动游戏，也可以设计一些真实的应用，如网络投票。在一些集体活动中玩这样的互动游戏，不仅有趣，还能够培养集体意识呢。希望本案例能抛砖引玉，有更多的老师带领学生做类似的研究。&lt;/p&gt;</content><author><name></name></author><summary type="html">设计一个多人互动游戏——以“赛龙舟”为例</summary></entry><entry><title type="html">欢迎使用Jekyll!（Markdown）</title><link href="/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD.html" rel="alternate" type="text/html" title="欢迎使用Jekyll!（Markdown）" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD</id><content type="html" xml:base="/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD.html">&lt;p&gt;&lt;strong&gt;Jekyll博客&lt;/strong&gt;将从这里开始.&lt;/p&gt;
-
-&lt;p&gt;希望&lt;strong&gt;你&lt;/strong&gt;喜欢!&lt;/p&gt;</content><author><name></name></author><summary type="html">Jekyll博客将从这里开始.</summary></entry><entry><title type="html">GitHub Actions: Providing Data Scientists With New Superpowers</title><link href="/handpy/actions/markdown/2020/03/06/fastpages-actions.html" rel="alternate" type="text/html" title="GitHub Actions: Providing Data Scientists With New Superpowers" /><published>2020-03-06T00:00:00-06:00</published><updated>2020-03-06T00:00:00-06:00</updated><id>/handpy/actions/markdown/2020/03/06/fastpages-actions</id><content type="html" xml:base="/handpy/actions/markdown/2020/03/06/fastpages-actions.html">&lt;h1 id=&quot;what-superpowers&quot;&gt;What Superpowers?&lt;/h1&gt;
-
-&lt;p&gt;Hi, I’m &lt;a href=&quot;https://twitter.com/HamelHusain&quot;&gt;Hamel Husain&lt;/a&gt;.  I’m a machine learning engineer at GitHub.  Recently, GitHub released a new product called &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;, which has mostly flown under the radar in the machine learning and data science community as just another continuous integration tool.&lt;/p&gt;
-
-&lt;p&gt;Recently, I’ve been able to use GitHub Actions to build some very unique tools for Data Scientists, which I want to share with you today.  Most importantly, I hope to get you excited about GitHub Actions, and the promise it has for giving you new superpowers as a Data Scientist.  Here are two projects I recently built with Actions that show off its potential:&lt;/p&gt;
-
-&lt;h2 id=&quot;fastpages&quot;&gt;fastpages&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/fastai/fastpages&quot;&gt;fastpages&lt;/a&gt; is an automated, open-source blogging platform with enhanced support for Jupyter notebooks.  You save your notebooks, markdown, or Word docs into a directory on GitHub, and they automatically become blog posts. Read the announcement below:&lt;/p&gt;
-
-&lt;h2 id=&quot;machine-learning-ops&quot;&gt;Machine Learning Ops&lt;/h2&gt;
-
-&lt;p&gt;Wouldn’t it be cool if you could invoke a chatbot natively on GitHub to test your machine learning models on the infrastructure of your choice (GPUs), log all the results, and give you a rich report back in a pull request so that everyone could see the results?  You can with GitHub Actions!&lt;/p&gt;
-
-&lt;p&gt;Consider the below annotated screenshot of &lt;a href=&quot;https://github.com/machine-learning-apps/actions-ml-cicd/pull/34&quot;&gt;this Pull Request&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/fastpages_posts/actions/pr_1.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/images/fastpages_posts/actions/pr_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A more in-depth explanation about the above project can be viewed in this video:&lt;/p&gt;
-
-&lt;center&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ll50l3fsoYs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Using GitHub Actions for machine learning workflows is starting to catch on.  &lt;a href=&quot;https://twitter.com/julien_c&quot;&gt;Julien Chaumond&lt;/a&gt;, CTO of &lt;a href=&quot;https://huggingface.co/&quot;&gt;Hugging Face&lt;/a&gt;, says:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;GitHub Actions are great because they let us do CI on GPUs (as most of our users use the library on GPUs not on CPUs), on our own infra! &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Additionally, you can host a GitHub Action for other people so others can use parts of your workflow without having to re-create your steps.  I provide examples of this below.&lt;/p&gt;
-
-&lt;h1 id=&quot;a-gentle-introduction-to-github-actions&quot;&gt;A Gentle Introduction To GitHub Actions&lt;/h1&gt;
-
-&lt;h2 id=&quot;what-are-github-actions&quot;&gt;What Are GitHub Actions?&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt; allow you to run arbitrary code in response to &lt;a href=&quot;https://help.github.com/en/actions/reference/events-that-trigger-workflows&quot;&gt;events&lt;/a&gt;.  Events are activities that happen on GitHub such as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Opening a pull request&lt;/li&gt;
-  &lt;li&gt;Making an issue comment&lt;/li&gt;
-  &lt;li&gt;Labeling an issue&lt;/li&gt;
-  &lt;li&gt;Creating a new branch&lt;/li&gt;
-  &lt;li&gt;… &lt;a href=&quot;https://help.github.com/en/actions/reference/events-that-trigger-workflows&quot;&gt;and many more&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;When an event is created, the GitHub Actions context is hydrated with a &lt;a href=&quot;https://developer.github.com/v3/activity/events/types/&quot;&gt;payload&lt;/a&gt; containing metadata for that event.  Below is an example of a payload that is received when an issue is created:&lt;/p&gt;
-
-&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;action&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;created&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;issue&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;444500041&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;number&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Spelling error in the README file&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;user&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;login&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Codertocat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;User&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;labels&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1362934389&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;node_id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;MDU6TGFiZWwxMzYyOTM0Mzg5&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;bug&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-     &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-     &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;body&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;It looks like you accidently spelled 'commit' with two 't's.&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This functionality allows you to respond to various events on GitHub in an automated way.   In addition to this payload, GitHub Actions also provide a plethora &lt;a href=&quot;https://help.github.com/en/actions/reference/contexts-and-expression-syntax-for-github-actions#github-context&quot;&gt;of variables&lt;/a&gt; and &lt;a href=&quot;https://help.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables#default-environment-variables&quot;&gt;environment variables&lt;/a&gt; that afford easy to access metadata such as the username and the owner of the repo.  Additionally, other people can package useful functionality into an Action that other people can inherit.  For example, consider the below Action that helps you &lt;a href=&quot;https://github.com/pypa/gh-action-pypi-publish&quot;&gt;publish python packages to PyPi&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://github.com/pypa/gh-action-pypi-publish#usage&quot;&gt;Usage&lt;/a&gt; section describes how this Action can be used:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Publish a Python distribution to PyPI&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;pypa/gh-action-pypi-publish@master&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;__token__&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${{ secrets.pypi_password }}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This Action expects two inputs: &lt;code class=&quot;highlighter-rouge&quot;&gt;user&lt;/code&gt; and a &lt;code class=&quot;highlighter-rouge&quot;&gt;password&lt;/code&gt;.  You will notice that the password is referencing a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;secrets&lt;/code&gt;, which is a variable that contains an &lt;a href=&quot;https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets&quot;&gt;encrypted secret&lt;/a&gt; that you can upload to your GitHub repository.  There are thousands of Actions (that are free) for a wide variety of tasks that can be discovered on the &lt;a href=&quot;https://github.com/marketplace?type=actions&quot;&gt;GitHub Marketplace&lt;/a&gt;.  The ability to inherit ready-made Actions in your workflow allows you to accomplish complex tasks without implementing all of the logic yourself.  Some useful Actions for those getting started are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/actions/checkout&quot;&gt;actions/checkout&lt;/a&gt;:  Allows you to quickly clone the contents of your repository into your environment, which you often want to do.  This does a number of other things such as automatically mount your repository’s files into downstream Docker containers.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mxschmitt/action-tmate&quot;&gt;mxschmitt/action-tmate&lt;/a&gt;: Proivdes a way to debug Actions interactively.  This uses port forwarding to give you a terminal in the browser that is connected to your Actions runner.   Be careful not to expose sensitive information if you use this.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/actions/github-script&quot;&gt;actions/github-script&lt;/a&gt;:  Gives you a pre-authenticated &lt;a href=&quot;https://octokit.github.io/rest.js/&quot;&gt;ocotokit.js&lt;/a&gt; client that allows you to interact with the GitHub API to accomplish almost any task on GitHub automatically.  Only &lt;a href=&quot;https://help.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token#permissions-for-the-github_token&quot;&gt;these endpoints&lt;/a&gt; are supported (for example, the &lt;a href=&quot;https://developer.github.com/v3/actions/secrets/&quot;&gt;secrets endpoint&lt;/a&gt; is not in that list).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In addition to the aforementioned Actions, it is helpful to go peruse the official &lt;a href=&quot;https://help.github.com/en/actions&quot;&gt;GitHub Actions docs&lt;/a&gt; before diving in.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-a-fastpages-action-workflow&quot;&gt;Example: A fastpages Action Workflow&lt;/h2&gt;
-
-&lt;p&gt;The best to way familiarize yourself with Actions is by studying examples.  Let’s take a look at the Action workflow that automates the build of &lt;a href=&quot;https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html&quot;&gt;fastpages&lt;/a&gt; (the platform used to write this blog post).&lt;/p&gt;
-
-&lt;h3 id=&quot;part-1-define-workflow-triggers&quot;&gt;Part 1: Define Workflow Triggers&lt;/h3&gt;
-
-&lt;p&gt;blog, &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/.github/workflows/ci.yaml&quot;&gt;defined in ci.yaml&lt;/a&gt;.  Like all Actions workflows, this is YAML file is located in the .github/workflows directory of the GitHub repo.&lt;/p&gt;
-
-&lt;p&gt;The top of this YAML file looks like this:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;CI&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;master&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;pull_request&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This means that this workflow is triggered on either a &lt;a href=&quot;https://help.github.com/en/actions/reference/events-that-trigger-workflows#push-event-push&quot;&gt;push&lt;/a&gt; or &lt;a href=&quot;https://help.github.com/en/actions/reference/events-that-trigger-workflows#pull-request-event-pull_request&quot;&gt;pull request&lt;/a&gt; event.  Furthermore, push events are filtered such that only pushes to the master branch will trigger the workflow, whereas all pull requests will trigger this workflow.  It is important to note that pull requests opened from forks will have read-only access to the base repository and cannot access any secrets for security reasons.  The reason for defining the workflow in this way is we wanted to trigger the same workflow to test pull requests as well as build and deploy the website when a PR is merged into master.  This will be clarified as we step through the rest of the YAML file.&lt;/p&gt;
-
-&lt;h3 id=&quot;part-2-define-jobs&quot;&gt;Part 2: Define Jobs&lt;/h3&gt;
-
-&lt;p&gt;Next, we define jobs (there is only one in this workflow).  Per &lt;a href=&quot;https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobs&quot;&gt;the docs&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A workflow run is made up of one or more jobs. Jobs run in parallel by default.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;     
-  &lt;span class=&quot;na&quot;&gt;build-site&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;( github.event.commits[0].message != 'Initial commit' ) || github.run_number &amp;gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ubuntu-latest&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The keyword &lt;code class=&quot;highlighter-rouge&quot;&gt;build-site&lt;/code&gt; is the name of your job and you can name it whatever you want. In this case, we have a conditional if statement that dictates if this job should be run or not.  We are trying to ensure that this workflow does not run when the first commit to a repo is made with the message ‘Initial commit’.  The first variable in the if statement, &lt;a href=&quot;https://help.github.com/en/actions/reference/contexts-and-expression-syntax-for-github-actions#github-context&quot;&gt;github.event&lt;/a&gt;, contains a &lt;a href=&quot;https://developer.github.com/v3/activity/events/types/#webhook-payload-example-31&quot;&gt;json payload&lt;/a&gt; of the event that triggered this workflow.  When developing workflows, it is helpful to print this variable in order to inspect its structure, which you can accomplish with the following YAML:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;see payload&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;echo &quot;PAYLOAD:\n${PAYLOAD}\n&quot;&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;PAYLOAD&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${{ toJSON(github.event) }}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Note: the above step is only for debugging and is not currently in the workflow.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://help.github.com/en/actions/reference/contexts-and-expression-syntax-for-github-actions#tojson&quot;&gt;toJson&lt;/a&gt; is a handy function that returns a pretty-printed JSON representation of the variable.  The output is printed directly in the logs contained in the Actions tab of your repo.  In this example, printing the payload for a push event will look like this (truncated for brevity):&lt;/p&gt;
-
-&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;ref&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;refs/tags/simple-tag&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;before&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;6113728f27ae8c7b1a77c8d03f9ed6e0adf246&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;created&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;deleted&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;forced&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;base_ref&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;commits&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;updated README.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;author&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hamelsmu&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;head_commit&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Therefore, the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;github.event.commits[0].message&lt;/code&gt; will retrieve the first commit message in the array of commits.  Since we are looking for situations where there is only one commit, this logic suffices.  The second variable in the if statement, &lt;a href=&quot;https://help.github.com/en/actions/reference/contexts-and-expression-syntax-for-github-actions#github-context&quot;&gt;github.run_number&lt;/a&gt; is a special variable in Actions which:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;[is a] unique number for each run of a particular workflow in a repository. This number begins at 1 for the workflow’s first run, and increments with each new run. This number does not change if you re-run the workflow run.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Therefore, the &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; statement introduced above:&lt;/p&gt;
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;( github.event.commits[0].message != 'Initial commit' ) || github.run_number &amp;gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Allows the workflow to run when the commit message is “Initial commit” as long as it is not the first commit.  ( &lt;code class=&quot;highlighter-rouge&quot;&gt;||&lt;/code&gt; is a logical &lt;code class=&quot;highlighter-rouge&quot;&gt;or&lt;/code&gt; operator).&lt;/p&gt;
-
-&lt;p&gt;Finally, the line &lt;code class=&quot;highlighter-rouge&quot;&gt;runs-on: ubuntu-latest&lt;/code&gt; specifies the &lt;a href=&quot;https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on&quot;&gt;host operating system&lt;/a&gt; that your workflows will run in.&lt;/p&gt;
-
-&lt;h3 id=&quot;part-3-define-steps&quot;&gt;Part 3: Define Steps&lt;/h3&gt;
-
-&lt;p&gt;Per the &lt;a href=&quot;https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idsteps&quot;&gt;docs&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A job contains a sequence of tasks called steps. Steps can run commands, run setup tasks, or run an Action in your repository, a public repository, or an Action published in a Docker registry. Not all steps run Actions, but all Actions run as a step. Each step runs in its own process in the runner environment and has access to the workspace and filesystem. Because steps run in their own process, changes to environment variables are not preserved between steps. GitHub provides built-in steps to set up and complete a job.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Below are the first two steps &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/.github/workflows/ci.yaml&quot;&gt;in our workflow&lt;/a&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Copy Repository Contents&lt;/span&gt;
-     &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;actions/checkout@master&lt;/span&gt;
-     &lt;span class=&quot;na&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-       &lt;span class=&quot;na&quot;&gt;persist-credentials&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
-
-   &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;convert notebooks and word docs to posts&lt;/span&gt;
-     &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./_action_files&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The first step creates a copy of your repository in the Actions file system, with the help of the utility &lt;a href=&quot;https://github.com/actions/checkout&quot;&gt;action/checkout&lt;/a&gt;.  This utility only fetches the last commit by default and saves files into a directory (whose path is stored in the environment variable &lt;a href=&quot;https://help.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables&quot;&gt;GITHUB_WORKSPACE&lt;/a&gt; that is accessible by subsequent steps in your job.  The second step runs the &lt;a href=&quot;https://github.com/fastai/fastpages#using-the-github-action--your-own-custom-blog&quot;&gt;fastai/fastpages&lt;/a&gt; Action, which converts notebooks and word documents to blog posts automatically.  In this case, the syntax:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./_action_files&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;is a special case where the pre-made GitHub Action we want to run happens to be defined in the same repo that runs this workflow.  This syntax allows us to test changes to this pre-made Action when evaluating PRs by referencing the directory in the current repository that defines that pre-made Action.  &lt;em&gt;Note: Building pre-made Actions is beyond the scope of this tutorial.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The next three steps in our workflow are defined below:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;setup directories for Jekyll build&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;rm -rf _site&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;sudo chmod -R 777 .&lt;/span&gt;
-
-    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Jekyll build&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docker://hamelsmu/fastpages-jekyll&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;bash -c &quot;gem install bundler &amp;amp;&amp;amp; jekyll build -V&quot;&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;JEKYLL_ENV&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;production'&lt;/span&gt;
-  
-    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;copy CNAME file into _site if CNAME exists&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;sudo chmod -R 777 _site/&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;cp CNAME _site/ 2&amp;gt;/dev/null || :&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The step named &lt;code class=&quot;highlighter-rouge&quot;&gt;setup directories for Jekyll build&lt;/code&gt; executes shell commands that remove the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder in order to get rid of stale files related to the page we want to build, as well as grant permissions to all the files in our repo to subsequent steps.&lt;/p&gt;
-
-&lt;p&gt;The step named &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll build&lt;/code&gt; executes a docker container hosted by the Jekyll community &lt;a href=&quot;https://hub.docker.com/r/jekyll/jekyll/&quot;&gt;on Dockerhub called &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll/jekyll&lt;/code&gt;&lt;/a&gt;.  For those not familiar with Docker, see &lt;a href=&quot;https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5?source=friends_link&amp;amp;sk=c554b55109102d47145c4b3381bee3ee&quot;&gt;this tutorial&lt;/a&gt;.  The name of this container is called &lt;code class=&quot;highlighter-rouge&quot;&gt;hamelsmu/fastpages-jekyll&lt;/code&gt; because I’m adding some additional dependencies to &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll/jekyll&lt;/code&gt; and hosting those on my DockerHub account for faster build times&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.  The &lt;a href=&quot;https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepswithargs&quot;&gt;args parameter&lt;/a&gt; allows you to execute arbitrary commands with the Docker container by overriding the CMD instruction in the Dockerfile.  We use this Docker container hosted on Dockerhub so we don’t have to deal with installing and configuring all of the complicated dependencies for Jekyll.  The files from our repo are already available in the Actions runtime due to the first step in this workflow, and are mounted into this Docker container automatically for us.  In this case, we are running the command &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt;, which builds our website and places relevant assets them into the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder. For more information about Jekyll, &lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;read the official docs&lt;/a&gt;.  Finally, the &lt;code class=&quot;highlighter-rouge&quot;&gt;env&lt;/code&gt; parameter allows me to pass an environment variable into the Docker container.&lt;/p&gt;
-
-&lt;p&gt;The final command above copies a &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; file into the _site folder, which we need for the custom domain &lt;a href=&quot;https://fastpages.fast.ai/&quot;&gt;https://fastpages.fast.ai&lt;/a&gt;. Setting up custom domains are outside the scope of this article.&lt;/p&gt;
-
-&lt;p&gt;The final step in our workflow is defined below:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Deploy&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;github.event_name == 'push'&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;peaceiris/actions-gh-pages@v3&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;deploy_key&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${{ secrets.SSH_DEPLOY_KEY }}&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;publish_dir&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./_site&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The statement&lt;/p&gt;
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;github.event_name == 'push'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;uses the variable &lt;a href=&quot;https://help.github.com/en/actions/reference/contexts-and-expression-syntax-for-github-actions#github-context&quot;&gt;github.event_name&lt;/a&gt; to ensure this step only runs when a push event ( in this case only pushes to the master branch trigger this workflow) occur.&lt;/p&gt;
-
-&lt;p&gt;This step deploys the fastpages website by copying the contents of the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder to the root of the &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; branch, which &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; uses for hosting.  This step uses the &lt;a href=&quot;https://github.com/peaceiris/actions-gh-pages&quot;&gt;peaceiris/actions-gh-pages&lt;/a&gt; Action, pinned at version 3.  &lt;a href=&quot;https://github.com/peaceiris/actions-gh-pages&quot;&gt;Their README&lt;/a&gt; describes various options and inputs for this Action.&lt;/p&gt;
-
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
-
-&lt;p&gt;We hope that this has shed some light on how we use GitHub Actions to automate fastpages.  While we only covered one workflow above, we hope this provides enough intuition to understand the &lt;a href=&quot;https://github.com/fastai/fastpages/tree/master/.github/workflows&quot;&gt;other workflows&lt;/a&gt; in fastpages.  We have only scratched the surface of GitHub Actions in this blog post, but we provide other materials below for those who want to dive in deeper.  We have not covered how to host an Action for other people, but you can &lt;a href=&quot;https://help.github.com/en/actions/building-actions&quot;&gt;start with these docs&lt;/a&gt; to learn more.&lt;/p&gt;
-
-&lt;p&gt;Still confused about how GitHub Actions could be used for Data Science?  Here are some ideas of things you can build:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Jupyter Widgets that trigger GitHub Actions to perform various tasks on GitHub via the &lt;a href=&quot;https://help.github.com/en/actions/reference/events-that-trigger-workflows#external-events-repository_dispatch&quot;&gt;repository dispatch event&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Integration with &lt;a href=&quot;https://www.pachyderm.com/&quot;&gt;Pachyderm&lt;/a&gt; for data versioning.&lt;/li&gt;
-  &lt;li&gt;Integration with your favorite cloud machine learning services, such &lt;a href=&quot;https://aws.amazon.com/sagemaker/&quot;&gt;Sagemaker&lt;/a&gt;, &lt;a href=&quot;https://azure.microsoft.com/en-us/free/machine-learning/&quot;&gt;Azure ML&lt;/a&gt; or GCP’s &lt;a href=&quot;https://cloud.google.com/ai-platform&quot;&gt;AI Platform&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;related-materials&quot;&gt;Related Materials&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;GitHub Actions official &lt;a href=&quot;https://help.github.com/en/actions&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/actions/hello-world-docker-action&quot;&gt;Hello world Docker Action&lt;/a&gt;: A template to demonstrate how to build a Docker Action for other people to use.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/sdras/awesome-actions&quot;&gt;Awesome Actions&lt;/a&gt;: A curated list of interesting GitHub Actions by topic.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5?source=friends_link&amp;amp;sk=c554b55109102d47145c4b3381bee3ee&quot;&gt;A tutorial on Docker&lt;/a&gt; for Data Scientists.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;getting-in-touch&quot;&gt;Getting In Touch&lt;/h3&gt;
-
-&lt;p&gt;Please feel free to get in touch with us on Twitter:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Hamel Husain &lt;a href=&quot;https://twitter.com/HamelHusain&quot;&gt;@HamelHusain&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Jeremy Howard &lt;a href=&quot;https://twitter.com/jeremyphoward&quot;&gt;@jeremyphoward&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;h5 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h5&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;You can see some of Hugging Face’s Actions workflows for machine learning &lt;a href=&quot;https://github.com/huggingface/transformers/tree/master/.github/workflows&quot;&gt;on GitHub&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;These additional dependencies are &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/_action_files/fastpages-jekyll.Dockerfile&quot;&gt;defined here&lt;/a&gt;, which uses the “jekyll build” command to add ruby dedpendencies from the Gemfile located at the root of the repo.  Additionally, this docker image is built by another Action workflow &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/.github/workflows/docker.yaml&quot;&gt;defined here&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Hamel Husain &amp; Jeremy Howard</name></author><summary type="html">What Superpowers?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/handpy/images/fastpages_posts/actions/actions_logo.png" /><media:content medium="image" url="/handpy/images/fastpages_posts/actions/actions_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">An Example Markdown Post</title><link href="/handpy/markdown/2020/01/14/test-markdown-post.html" rel="alternate" type="text/html" title="An Example Markdown Post" /><published>2020-01-14T00:00:00-06:00</published><updated>2020-01-14T00:00:00-06:00</updated><id>/handpy/markdown/2020/01/14/test-markdown-post</id><content type="html" xml:base="/handpy/markdown/2020/01/14/test-markdown-post.html">&lt;h1 id=&quot;example-markdown-post&quot;&gt;Example Markdown Post&lt;/h1&gt;
-
-&lt;h2 id=&quot;basic-setup&quot;&gt;Basic setup&lt;/h2&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-filename.md&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;filename&lt;/code&gt; is whatever file name you choose, to remind yourself what this post is about. &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; is the file extension for markdown files.&lt;/p&gt;
-
-&lt;p&gt;The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “&lt;em&gt;level 1 heading&lt;/em&gt;” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line &lt;code class=&quot;highlighter-rouge&quot;&gt;## File names&lt;/code&gt; above.&lt;/p&gt;
-
-&lt;h2 id=&quot;basic-formatting&quot;&gt;Basic formatting&lt;/h2&gt;
-
-&lt;p&gt;You can use &lt;em&gt;italics&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;code font text&lt;/code&gt;, and create &lt;a href=&quot;https://www.markdownguide.org/cheat-sheet/&quot;&gt;links&lt;/a&gt;. Here’s a footnote &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Here’s a horizontal rule:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
-
-&lt;p&gt;Here’s a list:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;item 1&lt;/li&gt;
-  &lt;li&gt;item 2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And a numbered list:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;item 1&lt;/li&gt;
-  &lt;li&gt;item 2&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;boxes-and-stuff&quot;&gt;Boxes and stuff&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a quotation&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
-   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
-   &lt;span class=&quot;Toast-content&quot;&gt;You can include alert boxes&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;…and…&lt;/p&gt;
-
-&lt;div class=&quot;Toast&quot;&gt;
-   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-info&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
-   &lt;span class=&quot;Toast-content&quot;&gt;You can include info boxes&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/handpy/images/logo.png&quot; alt=&quot;&quot; title=&quot;fast.ai's logo&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;You can format text and code per usual&lt;/p&gt;
-
-&lt;p&gt;General preformatted text:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Do a thing
-do_thing()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Python code and output:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Prints '2'
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Formatting text as shell commands:&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;hello world&quot;&lt;/span&gt;
-./some_script.sh &lt;span class=&quot;nt&quot;&gt;--option&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;value&quot;&lt;/span&gt;
-wget https://example.com/cat_photo1.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Formatting text as YAML:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;value&lt;/span&gt;
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;another_key&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;another&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;value&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Column 1&lt;/th&gt;
-      &lt;th&gt;Column 2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;A thing&lt;/td&gt;
-      &lt;td&gt;Another thing&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;tweetcards&quot;&gt;Tweetcards&lt;/h2&gt;
-
-&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;This is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Example Markdown Post</summary></entry></feed>
+&lt;p&gt;结合SIoT和掌控板，可以设计更多有意思的多人互动游戏，也可以设计一些真实的应用，如网络投票。在一些集体活动中玩这样的互动游戏，不仅有趣，还能够培养集体意识呢。希望本案例能抛砖引玉，有更多的老师带领学生做类似的研究。&lt;/p&gt;</content><author><name></name></author><summary type="html">设计一个多人互动游戏——以“赛龙舟”为例</summary></entry></feed>

@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/handpy/markdown/2020/01/14/test-markdown-post.html</loc>
-<lastmod>2020-01-14T00:00:00-06:00</lastmod>
-</url>
-<url>
-<loc>/handpy/actions/markdown/2020/03/06/fastpages-actions.html</loc>
-<lastmod>2020-03-06T00:00:00-06:00</lastmod>
-</url>
-<url>
-<loc>/handpy/2020/04/12/%E4%BD%A0%E5%A5%BD.html</loc>
-<lastmod>2020-04-12T00:00:00-05:00</lastmod>
-</url>
-<url>
 <loc>/handpy/2020/04/15/%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%A4%9A%E4%BA%BA%E4%BA%92%E5%8A%A8%E6%B8%B8%E6%88%8F.html</loc>
 <lastmod>2020-04-15T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/handpy/2020/04/20/%E8%AF%BE%E7%A8%8B-Mind+%E5%92%8C%E6%8E%8C%E6%8E%A7%E6%9D%BF%E4%BA%92%E5%8A%A8%E5%88%9B%E6%84%8F%E8%AE%BE%E8%AE%A1.html</loc>
+<lastmod>2020-04-20T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>/handpy/about/</loc>
