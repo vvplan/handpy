@@ -10,6 +10,12 @@ permalink: /about/
 
 ![掌控板](../images/handpy.png)
 
+![掌控板](../images/handpy01.png)
+
+![掌控板](../images/osh.png)
+
+![掌控板](../images/canshu.png)
+
 ## 掌控板购买地址
 
 1.盛思
