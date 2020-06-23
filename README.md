@@ -6,7 +6,7 @@
 
 ## 链接
 
-https://vvplan.github.io/vvboard/
+https://vvplan.github.io/handpy/
 
 ## 其他
 
